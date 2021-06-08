@@ -485,7 +485,7 @@ if (perform_tuning) { # Tuning took 1h34m
   write_csv(show_best_rf, "Tuning/show_best_rf.csv")
 } else {
   # Load results from GitHub
-  res_url <- "https://raw.githubusercontent.com/aandroni/ReportTuning/master/"
+  res_url <- "https://raw.githubusercontent.com/aandroni/datacamp-certification/main/tuning/"
   best_rf <- read_csv(paste0(res_url, "best_rf.csv"))
   roc_rf <- read_csv(paste0(res_url, "roc_rf.csv"))
   show_best_rf <- read_csv(paste0(res_url, "show_best_rf.csv"))
@@ -545,7 +545,7 @@ if (perform_tuning) { # Tuning took 3h36m
   write_csv(show_best_xgb, "Tuning/show_best_xgb.csv")
 } else {
   # Load results from GitHub
-  res_url <- "https://raw.githubusercontent.com/aandroni/ReportTuning/master/"
+  res_url <- "https://raw.githubusercontent.com/aandroni/datacamp-certification/main/tuning/"
   best_xgb <- read_csv(paste0(res_url, "best_xgb.csv"))
   roc_xgb <- read_csv(paste0(res_url, "roc_xgb.csv"))
   show_best_xgb <- read_csv(paste0(res_url, "show_best_xgb.csv"))
@@ -604,7 +604,7 @@ if (perform_tuning) { # Tuning took 5h18m
   write_csv(show_best_knn, "Tuning/show_best_knn.csv")
 } else {
   # Load results from GitHub
-  res_url <- "https://raw.githubusercontent.com/aandroni/ReportTuning/master/"
+  res_url <- "https://raw.githubusercontent.com/aandroni/datacamp-certification/main/tuning/"
   best_knn <- read_csv(paste0(res_url, "best_knn.csv"))
   roc_knn <- read_csv(paste0(res_url, "roc_knn.csv"))
   show_best_knn <- read_csv(paste0(res_url, "show_best_knn.csv"))
@@ -662,7 +662,7 @@ if (perform_tuning) { # Tuning took 42m
   write_csv(show_best_nnet, "Tuning/show_best_nnet.csv")
 } else {
   # Load results from GitHub
-  res_url <- "https://raw.githubusercontent.com/aandroni/ReportTuning/master/"
+  res_url <- "https://raw.githubusercontent.com/aandroni/datacamp-certification/main/tuning/"
   best_nnet <- read_csv(paste0(res_url, "best_nnet.csv"))
   roc_nnet <- read_csv(paste0(res_url, "roc_nnet.csv"))
   show_best_nnet <- read_csv(paste0(res_url, "show_best_nnet.csv"))
