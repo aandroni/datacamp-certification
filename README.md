@@ -17,7 +17,7 @@ at a station. The models are:
 4. Neural Networks
 
 The project/report was written in R Markdown and relies on five main R libraries:
-1) **tidyverse** for general data manipulation and wrangling; 2) **lubridate**
-for handling dates; 3) **cowplot** for arranging multiple figures together;
-4) **tidymodels** for machine learning; and 5) **vip** to extract feature
+**tidyverse** for general data manipulation and wrangling; **lubridate**
+for handling dates; **cowplot** for arranging multiple figures together;
+**tidymodels** for machine learning; and **vip** to extract feature
 importance from the final model.
