@@ -2,7 +2,7 @@
 
 This was a fun project that I then submitted to DataCamp to complete the "Data
 Scientist Certification" process. The challenge consisted in choosing one of the
-datasets that DataCamp provided, clean it, and analyze it with a tehnique of my
+datasets that DataCamp provided, clean it, and analyze it with a technique of my
 choosing.
 
 In my case, I decided to use the "Belgium Train Times" dataset, which
